@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  background-color: #F0F0F0;
+
+}
+
+header {
+
+  background-color: #333;
+
+  color: #fff;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 20px;
+
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 28px;
+
+}
+
+nav ul {
+
+  display: flex;
+
+  list-style: none;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+nav a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+  padding: 10px 20px;
+
+  font-size: 18px;
+
+  transition: all 0.2s ease-in-out;
+
+}
+
+nav a:hover {
+
+  background-color: #555;
+
+}
+
+.nav {
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto Mono', monospace;
+
+}
+
+.banner {
+
+  width: 100%;
+
+  height: 200px; /* Adjust this to the desired height of your banner */
+
+  overflow: hidden;
+
+  background-color: #fff; /* Adjust this to match the background color of your site */
+
+}
+
+.banner img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+.service-card-image {
+
+  width: 100%;
+
+  height: auto;
+
+  max-width: 200px;
+
+  display: block;
+
+  margin-left: 3px;
+
+  margin: 0 auto;
+
+  border-radius: 10px;
+
+}
+
+section {
+
+  padding: 80px 20px;
+
+  text-align: center;
+
+}
+
+h2 {
+
+  margin-bottom: 40px;
+
+  font-size: 30px;
+
+  text-align: center;
+
+  font-weight: bold;
+
+}
+
+.services-container {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+
+}
+
+.service-card {
+
+  width: 30%;
+
+  background-color: #f2f2f2;
+
+  border-radius: 10px;
+
+  padding: 40px;
+
+  text-align: left;
+
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+  margin: 20px;
+
+  transition: all 0.2s ease-in-out;
+
+}
+
+.service-card:hover {
+
+  transform: translateY(-10px);
+
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+
+}
+
+.logo {
+
+  color: grey; /* a gray-blue color for the logo */
+
+}
+
+section {
+
+  padding: 20px 20px; /* reduce the top and bottom padding to remove the gap */
+
+  text-align: center;
+
+}
+
+h1, h2, h3 {
+
+  font-family: 'Poppins', sans-serif;
+
+font-family: 'Roboto Mono', monospace;
+
+  color: #2C3E50; /* a dark blue-gray color for headings */
+
+}
+
+p {
+
+  color: #34495E; /* a gray-blue color for paragraph text */
+
+}
+
+h2 {
+
+  font-size: 36px;
+
+}
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px 20px;
+
+    background-color: #333;
+
+    color: #fff;
+
+    font-size: 1.2em;
+
+  }
+
+  .navbar a {
+
+    color: #fff;
+
+    text-decoration: none;
+
+    margin-right: 20px;
+
+  }
+
+  /* Hamburger Menu */
+
+  .navbar .hamburger {
+
+    display: none;
+
+  }
+
+  /* Services */
+
+  .services-container {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    margin: 20px 0;
+
+  }
+
+  .service-card {
+
+    width: calc(33.33% - 20px);
+
+    background-color: #eee;
+
+    padding: 20px;
+
+    text-align: center;
+
+    font-size: 1.2em;
+
+  }
+
+  /* Media Queries */
+
+  @media (max-width: 767px) {
+
+    /* Navigation Bar */
+
+    .navbar {
+
+      flex-direction: column;
+
+      align-items: flex-start;
+
+    }
+
+    .navbar a {
+
+      margin-right: 0;
+
+      margin-bottom: 10px;
+
+    }
+
+    /* Hamburger Menu */
+
+    .navbar .hamburger {
+
+      display: block;
+
+      cursor: pointer;
+
+    }
+
+    /* Services */
+
+    .services-container {
+
+      flex-direction: column;
+
+      align-items: center;
+
+    }
+
+    .service-card {
+
+      width: 100%;
+
+      margin-bottom: 20px;
+
+      font-size: 1em;
+
+    }
+
+  }
+
